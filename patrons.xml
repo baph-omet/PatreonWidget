@@ -1,8 +1,11 @@
 <tiers>
 	<tier>
-		<name>Succubi ($5.00+)</name>
+		<name>Succubi ($5+)</name>
 		<patrons>
 			<patron>CandiHyphenPants</patron>
 		</patrons>
+	</tier>
+	<tier>
+		<name>Imps ($2+)</name>
 	</tier>
 </tiers>
