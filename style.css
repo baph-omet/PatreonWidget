@@ -41,11 +41,16 @@ body {
 }
 
 ul {
+  margin: 5px;
   margin-left: auto;
   margin-right: auto;
-	padding-left:0;
+  padding-left:0;
 }
 
 li {
 	list-style: none;
+}
+
+h2 {
+	margin:5px;
 }
