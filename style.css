@@ -12,6 +12,9 @@
 body {
   background-color: transparent;
   margin: 0;
+}
+
+body, head, html {
   width: max-content;
   height: max-content;
 }
