@@ -1,61 +1,56 @@
 @font-face {
-  font-family: gothic;
-  src: url('https://static.tumblr.com/zztymp9/WL2n5ml7r/gothicbold.otf');
+	font-family: gothic;
+	src: url('https://static.tumblr.com/zztymp9/WL2n5ml7r/gothicbold.otf');
 }
 
 * {
-  font-family: gothic;
-  color: white;
-  text-align: center;
+	font-family: gothic;
+	color: white;
+	text-align: center;
 }
 
 body {
-  background-color: transparent;
-  margin: 0;
-}
-
-body, head, html {
-  width: max-content;
-  height: max-content;
+	background-color: transparent;
+	margin: 0;
 }
 
 #main {
-  background-color: #222;
-  width: 300px;
-  padding: 20px;
-  border: 2px solid white;
-  border-radius: 15px;
+	background-color: #222;
+	width: 300px;
+	padding: 20px;
+	border: 2px solid white;
+	border-radius: 15px;
 }
 
 #header {
-  background-color: #111;
-  margin-left: -20px;
-  margin-right: -20px;
-  margin-top: -20px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  border-radius: 15px 15px 0 0;
+	background-color: #111;
+	margin-left: -20px;
+	margin-right: -20px;
+	margin-top: -20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 15px 15px 0 0;
 }
 
-#header img {
-  width: 32px;
-}
+	#header img {
+		width: 32px;
+	}
 
-#header * {
-  display: inline;
-}
+	#header * {
+		display: inline;
+	}
 
 ul {
-  margin: 5px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left:0;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 0;
 }
 
 li {
 	list-style: none;
 }
 
-h2 {
-	margin:5px;
+#body {
+	max-height: 250px;
+	overflow-y: scroll;
 }
