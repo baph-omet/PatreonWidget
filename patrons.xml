@@ -1,5 +1,11 @@
 <tiers>
 	<tier>
+		<name>Rex ($12+)</name>
+		<patrons>
+			<patron>Damian Wentworth</patron>
+		</patrons>
+	</tier>
+	<tier>
 		<name>Succubi ($5+)</name>
 		<patrons>
 			<patron>CandiHyphenPants</patron>
