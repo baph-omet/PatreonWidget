@@ -32,18 +32,21 @@ body {
 	border-radius: 15px 15px 0 0;
 }
 
-	#header img {
-		width: 32px;
-	}
+#header img {
+	width: 32px;
+}
 
-	#header * {
-		display: inline;
-	}
+#header * {
+	display: inline;
+}
 
 ul {
-	margin-left: auto;
-	margin-right: auto;
+	margin: 0 auto;
 	padding-left: 0;
+}
+
+h2 {
+	margin: 0;
 }
 
 li {
@@ -51,6 +54,6 @@ li {
 }
 
 #body {
-	max-height: 250px;
+	max-height: 200px;
 	overflow-y: scroll;
 }
