@@ -1,6 +1,6 @@
 @font-face {
 	font-family: gothic;
-	src: url('https://static.tumblr.com/zztymp9/WL2n5ml7r/gothicbold.otf');
+	src: url('gothicbold.otf');
 }
 
 * {
@@ -56,4 +56,18 @@ li {
 #body {
 	max-height: 200px;
 	overflow-y: scroll;
+	margin-bottom: 20px;
+}
+
+.cta-button {
+	padding: 10px;
+	background-color: #fa6854;
+	border: 1px solid white;
+	border-radius: 10px;
+	text-decoration: none;
+	font-weight: bolder;
+}
+
+.cta-button:hover {
+	background-color: #ff9182;
 }
